@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.shape1 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    box-shadow: 5px 0px 10px 0px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+
+
+
+}
+
+.b {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
